@@ -1,0 +1,2 @@
+include ':app', ':imgrigtopview'
+rootProject.name='IMG_RigTop_Identification_master'

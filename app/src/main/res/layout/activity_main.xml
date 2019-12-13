@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.zzg.img_rigtop_identification_master.IMGRigTopPointView
+        android:id="@+id/imgPoint"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:padding="15dp"
+        android:layout_gravity="center_horizontal"></com.zzg.img_rigtop_identification_master.IMGRigTopPointView>
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="添加"
+        tools:ignore="MissingConstraints"
+        ></Button>
+
+</LinearLayout>
